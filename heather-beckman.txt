@@ -1,0 +1,204 @@
+My codepen project:
+
+https://codepen.io/HeathDanni/pen/mdVJpdg 
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML?
+		
+		Semantic means it has meaning.  Semantic HTML is the usage of meaningful (or semantic) tags that help developers and browsers make sense of what is being displayed on the web page.
+
+    2. What is HTML used for? 
+
+		HTML is used for the basic structure and content of the web page.
+
+    3. What is an attribute and where do we put it? 
+
+		An attribute is extra information included in the beginning tag of an element.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	
+		h1 is the the most important heading and it should only be used once on a page.
+
+    5. Name two tags that have required attributes
+	
+		The <img> tag requires a src attribute and the <a> tag requires a href attribute.
+	
+    6. What do we put in the head of our HTML document? 
+
+		Metadata.  Data about the page that does not appear on the page.
+
+    7. What is an id?
+
+		An id is an selector attribute.
+		
+
+    8. What elements can I add an id to?
+		
+		You can add an id to any HTML element in the body, but it is best practice to only use each id once. 
+
+    9. How many times can I use the same id on a page?
+		
+		You could technically use id more than once, but you shouldn't.
+
+    10. What is a class?
+
+		A class is a selector which you can use for more than one element.
+
+    11. What elements can I add a class to?
+
+		You can use class on any elements in the body of the page.
+
+    12. How many times can I use the same class on a page? 
+
+		As many times as you need to.
+
+    13. How do I get my link to open in a new tab?
+
+		Add the attribute target=”_blank” into the <a> tag.
+
+    14. What is the alt attribute in the image tag used for? 
+		
+		The alt attribute allows you to display text if a picture doesn't load correctly.  It also is used by screen readers and for SEO purposes.
+
+    15. How do I reference an id?
+
+		#”id name”
+
+    16. What is the difference between a section and a div
+
+		Section is a semantic term which gives meaning to the element. Div is non descriptive so it does not describe the meaning of the element.
+
+    
+17. What is CSS used for? 
+
+		CSS is used to style HTML
+
+    
+18. How to we select an element? Example - every h2 on the page
+
+		We just use the name of the element.  For instance:
+		h2 {
+		}
+    
+	19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+		We use class when we want to select more than one element.  For instance, we might use class if we want to make more than one element's text the same color.  We use id when we are selecting only one element.  For instance, maybe we want to change the size of only one special image in a group of images.
+
+    20. How do we select classes in CSS?
+
+		.”class name”
+
+    21. How do we select a p element with a single class of “human””?
+
+		.human p {
+			}
+
+    22. What is a parent child selector? When would this be useful? 
+
+		An element nested inside another element is that element's “child” and the outside element is considered the “parent” element.  This would be useful to use if you want to style one or all of the child elements of a specific parent element.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+       	.sidebar div a {
+		}
+		
+    24. What is a pseudo selector?
+
+		Pseudo selectors style elements based on their state.  For instance, :hover can be used to change the style of an element only when it is being hovered over.
+
+    25. What do we use the change the spacing between lines?
+
+		line-height
+
+    26. What do we use to change the spacing between letters?
+
+		letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+		text-transform
+		
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+		div {
+		  border: 1px dotted black;
+		}
+
+    29. How do I select everything on the page? 
+
+		*
+
+    30. How do I write a comment in CSS?
+
+		/*this is a comment*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	
+	I can use git status to see the information about the file I am in.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+	ls
+
+   33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+		rm “file name”  I have to be careful with this because there are no safeguards or warnings like we are used to from using the GUI.  Once you make this command, the file will be gone forever without any warning. 
+ 
+34. Why should I use version control? 
+
+		Version control allows us to more easily keep a history of our work and to be able to go back to older versions if we need to.  It also helps us work on projects with others more easily.
+
+    35. How often should I commit to github?
+
+		I should commit often.
+
+    36. What is the command we would use to push our repo up to github? 
+
+		git push
+
+    37. Walk me through Lambda's git flow. 
+
+		First, I want to fork the project into my GitHub.  
+		
+		I will then add my TL as a collaborator.  
+		
+		Next, I will use git bash to clone my repo by using the command 'git clone “my repo address”'  
+
+		I then cd into my project and create a branch with 'git checkout -b heather-beckman'
+
+		At this point, I want to make sure that the branch was added successfully.
+		
+		I add new files to my project by using 'touch “file name”' and 'git add “file-name”'
+
+		Now, I am set up to work on my project and add, commit, and check status often.
+
+		Next, I will have to push my completed project to GitHub by using the command 'git push'
+
+		Finally, I will open a pull request on my branch on GitHub and add my TL as a reviewer for the pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+		An inline element will appear on only one line.  A block element can wrap and take up several lines.  Span is an inline element and div is a block element.
+
+    2. What happens when an element is positioned absolutely? 
+
+		When an element is positioned absolutely it is no longer positioned relative to the entire page, but to the closest element which is positioned to the page. This means that margins and padding will be based on the distance from this closest element.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+		Set the desired width, and make sure that margin and padding is set to 0px so it doesn't take up anymore space.
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+		3 block elements are <div>, <p>, and <section>, 2 inline elements are <span> and <a>.  An element that is inline-block is the the <button> element.
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+		The box model means that everything in an HTML document is surounded by a box that includes the element itself, padding, border, and margin.  The problem we can have with this model 
+
+   --> 
