@@ -199,6 +199,6 @@ Stretch Questions
 
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
-		The box model means that everything in an HTML document is surounded by a box that includes the element itself, padding, border, and margin.  The problem we can have with this model 
+		The box model means that everything in an HTML document is surounded by a box that includes the element itself, padding, border, and margin.  The problem we can have with this model is that each of these elements take up space and it makes it diffuclt to caculate where everything will be positioned on the page because of this. One thing you can do to "fix" this is to make sure you calculate the size of an element including all of the items (margin, padding, border, and object size). An easier way to deal with this problem would be to use flexbox.
 
    --> 
