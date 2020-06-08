@@ -145,7 +145,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
    33. How do I remove a file via the command line? Why do I have to be careful with this? 
 
-		rm �file name�  I have to be careful with this because there are no safeguards or warnings like we are used to from using the GUI.  Once you make this command, the file will be gone forever without any warning. 
+		rm "file name"  I have to be careful with this because there are no safeguards or warnings like we are used to from using the GUI.  Once you make this command, the file will be gone forever without any warning. 
  
 34. Why should I use version control? 
 
